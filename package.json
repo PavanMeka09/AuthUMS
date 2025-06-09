@@ -1,0 +1,27 @@
+{
+  "name": "authums",
+  "version": "1.0.0",
+  "description": "Auth Serivce for apps via LPU UMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavanMeka09/AuthUMS.git"
+  },
+  "keywords": [
+    "Auth",
+    "Authentication"
+  ],
+  "author": "PavanMeka09",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PavanMeka09/AuthUMS/issues"
+  },
+  "homepage": "https://github.com/PavanMeka09/AuthUMS#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
