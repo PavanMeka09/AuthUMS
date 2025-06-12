@@ -53,7 +53,7 @@ async function main(req, res) {
         '__SCROLLPOSITIONY': '0',
         '__EVENTVALIDATION': sessionData.eventValidation,
         'DropDownList1': '1',
-        'txtU': req.query.regNo,  
+        'txtU': req.query.regno,  
         'TxtpwdAutoId_8767': req.query.pass,
         'iBtnLogins150203125': 'Login'
       }),
@@ -103,7 +103,7 @@ async function main(req, res) {
             'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
             'sec-ch-ua-mobile': '?0',
             'sec-ch-ua-platform': '"Windows"',
-            'Cookie': `ASP.NET_SessionId=${sessionData.sessionId}; ${req.query.regNo}=Y`
+            'Cookie': `ASP.NET_SessionId=${sessionData.sessionId}; ${req.query.regno}=Y`
           }
         });
         
@@ -138,7 +138,7 @@ async function main(req, res) {
           'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
           'sec-ch-ua-mobile': '?0',
           'sec-ch-ua-platform': '"Windows"',
-          'Cookie': `ASP.NET_SessionId=${sessionData.sessionId}; ${req.query.regNo}=Y`
+          'Cookie': `ASP.NET_SessionId=${sessionData.sessionId}; ${req.query.regno}=Y`
         }
       });
 
