@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/PavanMeka09/AuthUMS#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "axios": "^1.9.0",
+    "axios-cookiejar-support": "^6.0.2",
+    "cookiejar": "^2.1.4",
+    "express": "^5.1.0",
+    "jsdom": "^26.1.0"
   }
 }
